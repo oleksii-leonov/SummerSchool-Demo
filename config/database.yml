@@ -14,8 +14,8 @@ development:
   reconnect: false
   database: aacimp_development
   pool: 5
-  username: root
-  password:
+  username: aacimpmysql
+  password: aacimp
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -27,8 +27,8 @@ test:
   reconnect: false
   database: aacimp_test
   pool: 5
-  username: root
-  password:
+  username: aacimpmysql
+  password: aacimp
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 production:
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: aacimp_production
   pool: 5
-  username: root
-  password:
+  username: aacimpmysql
+  password: aacimp
   socket: /opt/local/var/run/mysql5/mysqld.sock
