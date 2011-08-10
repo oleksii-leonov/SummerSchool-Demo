@@ -16,6 +16,8 @@ end
 gem "thin"
 gem "heroku"
 
+gem "arel", "2.1.4"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
