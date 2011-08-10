@@ -1,0 +1,32 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree .
+*/
+
+html{
+  height:100%;
+}
+
+body{
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background: -moz-radial-gradient(50% 0px, circle cover, #FFF 50px, #BBB 700px) no-repeat #BBB;
+  background: -webkit-gradient(radial, 50% 0, 50, 50% 0, 700, from(#FFF), to(#BBB)) no-repeat #BBB;
+}
+
+p, ol, ul, td {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  font-size: 48px;
+  text-shadow: 1px 0px 0px #fff;
+}
